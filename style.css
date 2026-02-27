@@ -45,8 +45,26 @@ canvas {
   object-fit: cover;
 }*/
 
-h1, h2, p {
-  color: #fff;
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+  color: black;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #444;
+  margin: 0;
+  color: greenyellow;
+}
+
+p {
+  margin-top: 10px;
+  color: greenyellow;
 }
 
 .icons {
@@ -54,6 +72,10 @@ h1, h2, p {
 }
 
 .icons a {
+  margin: 0 8px; 
+  font-size: 1.9rem;
+  color: inherit; 
+  text-decoration: none;
   color: #fff;
 }
 
