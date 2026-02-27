@@ -6,7 +6,9 @@
 
 body {
   font-family: system-ui, sans-serif;
-  background: #fff;
+  /* background: #fff; */
+  background: url('your-image.jpg') no-repeat center center fixed;
+  background-size: cover;
   overflow: hidden;
 }
 
@@ -30,6 +32,7 @@ canvas {
   padding: 18px;
 }
 
+/*
 .avatar {
   width: 380px;
   height: 380px;
@@ -38,7 +41,7 @@ canvas {
   border-radius: 50%;
   margin: 0;
   object-fit: cover;
-}
+}*/
 
 h1 {
   font-family: 'Oswald', sans-serif;
