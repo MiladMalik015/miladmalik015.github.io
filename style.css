@@ -30,6 +30,8 @@ canvas {
   gap: 24px;
   z-index: 10;
   padding: 18px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 16px;
 }
 
 /*
@@ -43,24 +45,8 @@ canvas {
   object-fit: cover;
 }*/
 
-h1 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 3rem;
-  font-weight: 700;
-  margin: 0;
-}
-
-h2 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.4rem;
-  font-weight: 600;
-  color: #444;
-  margin: 0;
-}
-
-p {
-  margin-top: 10px;
-  color: #666;
+h1, h2, p {
+  color: #fff;
 }
 
 .icons {
@@ -68,11 +54,9 @@ p {
 }
 
 .icons a {
-  margin: 0 8px;
-  font-size: 1.9rem;
-  color: inherit;
-  text-decoration: none;
+  color: #fff;
 }
+
 
 /* Increase size for anchors using .link1 (used in new layout) */
 .link1 {
