@@ -6,20 +6,17 @@
 
 body {
   font-family: system-ui, sans-serif;
-  /* background: #fff; */
   background: url('https://wallpapers.com/images/hd/elliot-and-mr-robot-in-vignette-yzvwatbl206encvs.jpg') no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
 }
 
-/* Background canvas */
 canvas {
   position: fixed;
   top: 0;
   left: 0;
 }
 
-/* Center card */
 .card {
   position: absolute;
   top: 50%;
@@ -34,17 +31,6 @@ canvas {
   border-radius: 16px;
 }
 
-/*
-.avatar {
-  width: 380px;
-  height: 380px;
-  aspect-ratio: 1/1;
-  max-width: 380px;
-  border-radius: 50%;
-  margin: 0;
-  object-fit: cover;
-}*/
-
 h1 {
   font-family: 'Oswald', sans-serif;
   font-size: 3rem;
@@ -57,7 +43,6 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.4rem;
   font-weight: 600;
-  color: #444;
   margin: 0;
   color: greenyellow;
 }
@@ -72,15 +57,12 @@ p {
 }
 
 .icons a {
-  margin: 0 8px; 
+  margin: 0 8px;
   font-size: 1.9rem;
-  color: inherit; 
+  color: #ffffff;
   text-decoration: none;
-  color: #fff;
 }
 
-
-/* Increase size for anchors using .link1 (used in new layout) */
 .link1 {
   margin-right: 12px;
   font-size: 2.2rem;
@@ -88,7 +70,6 @@ p {
   text-decoration: none;
 }
 
-/* Responsive: stack vertically on small screens */
 @media (max-width: 600px) {
   .card {
     flex-direction: column;
